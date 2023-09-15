@@ -1,0 +1,27 @@
+{
+  "$schema": "https://cdn.statically.io/gh/nguyenngoclongdev/cdn/main/schema/v7/terminal-keeper.json",
+  "theme": "tribe",
+  "active": "default",
+  "activateOnStartup": true,
+  "keepExistingTerminals": false,
+  "sessions": {
+    "default": [
+      [
+        {
+          "name": "api",
+          "commands": [
+            "cd api && yarn dev"
+          ],
+          "autoExecuteCommands": true
+        },
+        {
+          "name": "web",
+          "commands": [
+            "cd web && yarn dev"
+          ],
+          "autoExecuteCommands": true
+        }
+      ]
+    ]
+  }
+}
