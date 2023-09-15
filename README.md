@@ -9,6 +9,7 @@ This is a web application that allows users to upload videos and get a transcrip
 <!-- emoji screenshot here  -->
 ## Screenshots 📸
 
+![image](https://github.com/Natanaelvich/video-transcription_rocketseat-nlw-23/assets/52014318/bc12f3eb-c99b-4592-88de-d9a1ae4eb0a5)
 
 ## Videos 📹
 
