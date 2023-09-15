@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Api",
+        "type": "shell",
+        "command": "cd api && yarn dev",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new",
+          "group": "develop",
+        },
+        "runOptions": { "runOn": "folderOpen" }
+      },
+      {
+        "label": "Web",
+        "type": "shell",
+        "command": "cd web && yarn dev",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new",
+          "group": "develop",
+        },
+        "runOptions": { "runOn": "folderOpen" }
+      }
+    ]
+  }
