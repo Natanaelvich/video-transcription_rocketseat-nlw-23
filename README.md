@@ -14,6 +14,7 @@ This is a web application that allows users to upload videos and get a transcrip
 
 ## Videos 📹
 
+https://github.com/Natanaelvich/video-transcription_rocketseat-nlw-23/assets/52014318/979e0b30-c360-41c5-9c68-5549dd73bdd3
 
 ## Technologies
 
