@@ -16,6 +16,18 @@ app.register(uploadVideoRoute)
 app.register(createTranscriptionRoute)
 app.register(generateAiCompletionRoute)
 
+app.setErrorHandler(function (error, request, reply) {
+    // Log error
+   console.log(error)
+    
+    // Send error response
+    reply.status(500).send({
+        statusCode: 500,
+        error: 'Internal Server Error',
+        message: error.message
+    })
+  })
+
 app.listen({
   port: 3333
 }).then(() => {
